@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="신여름 포트폴리오">
+    <meta name="description" content="개인용 웹 포트폴리오">
+    <!-- <meta name="keywords" content="웹디자이너,웹퍼블리셔,포트폴리오"> -->
+    <meta name="author" content="신여름">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" href="./favicon.svg">
+    <title>여름! ::웹 포트폴리오</title>
+    <link rel="stylesheet" href="./css/reset.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.css" integrity="sha512-wCVOuVtxsXqrQK7tj9j4BvyfITQmpp7UE7mVilD7aieGLYFEIAa5UKTP1RapOf6dxQ9JIKAneakcyykWG4r4Ow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.0.3/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/vendors/easings.min.js" integrity="sha512-SrKslwu6IjHEo/8mAOtkoUOT3MzHCEOFWktrC8BNtjPuBBYLYjg1y/Marat34uYfOfxDMLEwy8DLArWEVc2i+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.js" integrity="sha512-ekWIiATJSaL5RWmBSap8JDgTMCIBCso5UFovYoMix+a4qFcVDryBcCt4P0kJA4kA0YtmnJuzfTcmb9+TIznIlg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </head>
+
+
+
+
+<body>
+  <nav class="skip-menu">
+    <a href="#slide1">home</a>
+    <a href="#slide2">about me</a>
+    <a href="#slide3">skills</a>
+    <a href="#slide4">portfolio</a>
+    <a href="#slide5">contact</a>
+  </nav>
+
+  <section class="wrap">
+
+    <div class="btn-top" id="top">
+      <a href="#slide1">▲</a>
+    </div>
+    
+    <header id="header" class="header">
+        <div class="container hNav">
+            <div class="nav-top">
+                <h1>
+                  <div class="img-box">
+                    <a href="./index.html">
+                      <img src="./imgs/logo.svg" alt="메인페이지로이동로고">
+                    </a>
+                  </div>
+                </h1>
+                <div class="btn-nav" onclick="toggleNav();">
+                  <div class="img-box nav-o">
+                      <button class=""><img src="./imgs/btn-nav.svg" alt="네비여는아이콘"></button>
+                  </div>
+                  <div class="img-box nav-c">
+                      <button class=""><img src="./imgs/btn-nav02.svg" alt="네비닫는아이콘"></button>
+                  </div>
+                </div>
+            </div>
+            <nav class="nav">
+              <ul id="menu" class="menu">
+                  <li class="li"><a href="#slide2">ABOUTME</a></li>
+                  <li class="li"><a href="#slide3">SKILLS</a></li>
+                  <li class="li"><a href="#slide4">PORTFOLIO</a></li>
+                  <li class="li"><a href="#slide5">CONTACT</a></li>
+              </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="particles"></div>
+    <main class="main" id="fullpage">
+
+      <section class="sec sec01 section" id="home" data-anchor="slide1">
+        <div class="container">
+          <div class="coco"></div>
+          <h2>신여름의 포트폴리오</h2>
+        </div>
+        <div class="oceon">
+          <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+              <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+              <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(244,247,248,0.7" />
+              <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(1,131,198,0.5)" />
+              <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(225,255,255,0.3)" />
+              <use xlink:href="#gentle-wave" x="48" y="7" fill="#2ca6dc" />
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <section class="sec sec02 secitem section" id="about" data-anchor="slide2">
+        <div class="container incont">
+          <div class="img-box">
+            <picture>
+              <source media="(min-width:1024px)" srcset="./imgs/sec02-img-d.svg">
+              <source media="(min-width:768px)" srcset="./imgs/sec02-img-t.svg">
+              <img src="./imgs/sec02-img-m.svg" alt="해변가에 앉아있는 일러스트">
+            </picture>
+          </div>
+          <div class="txt-box">
+            <h2><span>ABOUT ME<br></span>"내 손으로 만드는 즐거움"</h2>
+            <div class="me-txt">
+              <p><span>name : </span>신여름</p>
+              <p><span>creation date : </span>1994. 07. 13</p>
+            </div>
+            <p>
+              2023. 03월 웹 퍼블리싱 기초 과정 학습을 시작하여 08월 수료하였습니다.<br>
+              약 4개월의 기간 동안 최선을 다해 학습하며 즐거움과 보람을 느꼈습니다.<br>
+              평소 소소하지만 무언가 만드는 일에 즐거움을 느껴왔으며, 또한 성실한 자세로 일에 집중할 때 보람을 느끼기에, 앞으로 더욱 많은 것을 배워나가 성장하는 웹 퍼블리셔가 되고자 합니다.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="sec sec03 secitem section" id="skills" data-anchor="slide3">
+        <div class="container incont">
+          <div class="h2-box">
+              <h2>SKILLS</h2>
+              <p>
+                HTML, CSS, JS의 기초에 대한 이해와 간단한 작성이 가능하며, Ps, Ai를 이용한 이미지와 아이콘의 편집과 제작이 가능합니다.
+              </p>
+          </div>
+          <ul class="">
+            <li class="left">
+              <h3>HTML</h3>
+              <div class="img-box">
+                <img src="./imgs/sec03-html.svg" alt="html아이콘">
+              </div>
+              <div class="txt-box">
+                <div class="bar-box bar7">70%</div>
+                <p>HTML5 표준 문서를 작성할 수 있습니다.</p>
+              </div>
+            </li>
+            <li class="right">
+              <h3>CSS</h3>
+              <div class="img-box">
+                <img src="./imgs/sec03-css.svg" alt="css아이콘">
+              </div>
+              <div class="txt-box">
+                <div class="bar-box bar6">60%</div>
+                <p>CSS로 문서의 간단한 배치와 꾸밈이 가능합니다.</p>
+              </div>
+            </li>
+            <li class="left">
+              <h3>JS</h3>
+              <div class="img-box">
+                <img src="./imgs/sec03-js.svg" alt="js아이콘">
+              </div>
+              <div class="txt-box">
+                <div class="bar-box bar4">40%</div>
+                <p>자료를 참고하여 간단한 함수 제작이 가능합니다.</p>
+              </div>
+            </li>
+            <li class="right">
+              <h3>JQ</h3>
+              <div class="img-box">
+                <img src="./imgs/sec03-jq.svg" alt="jq아이콘">
+              </div><div class="txt-box">
+                <div class="bar-box bar3">30%</div>
+                <p>자료를 참고하여 간단한 함수 제작이 가능합니다.</p>
+              </div>
+            </li>
+            <li class="left">
+              <h3>Ps</h3>
+              <div class="img-box">
+                <img src="./imgs/sec03-Ps.svg" alt="ps아이콘">
+              </div><div class="txt-box">
+                <div class="bar-box bar7">70%</div>
+                <p>간단한 이미지 편집과 제작이 가능합니다.</p>
+              </div>
+            </li>
+            <li class="right">
+              <h3>Ai</h3>
+              <div class="img-box">
+                <img src="./imgs/sec03-Ai.svg" alt="ai아이콘">
+              </div><div class="txt-box">
+                <div class="bar-box bar7">70%</div>
+                <p>간단한 일러스트와 아이콘을 제작할 수 있습니다.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+      <section class="sec sec04 section secitem" id="portfolio" data-anchor="slide4">
+        <div class="container incont">
+          <h2>PORTFOLIO</h2>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="f-b">
+                  <div class="img-box">
+                    <picture>
+                      <source media="(min-width:1024px)" srcset="./imgs/sec04-01.png">
+                      <source media="(min-width:768px)" srcset="./imgs/sec04-02.png">
+                      <img src="./imgs/sec04-03.png" alt="반응형웹페이지미리보기">
+                    </picture>
+                  </div>
+                  <div class="txt-box">
+                    <h3>반응형 여행사 홈페이지 구현</h3>
+                    <div class="icon-box">
+                      <a href="https://github.com/aaaaa789456/tourist">
+                        <img src="./imgs/sec04-img.svg" alt="자세히보기아이콘">
+                      </a>
+                    </div>
+                    <p><span>작업기간 : </span>1주일</p>
+                    <p><span>기여도 : </span>디자인 20% / 구현 70%</p>
+                    <p>
+                       본 페이지는 [반응형 웹 실전 프로젝트 가이드(아이콕스)]에서 부록으로 제공된 디자인을 이용하여 제작한 여행사 메인 페이지입니다.
+                    </p>
+                    <div class="span-box">
+                      <span>웹사이트</span><span>코딩</span><span>반응형</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="f-b">
+                  <div class="img-box">
+                    <picture>
+                      <source media="(min-width:1024px)" srcset="./imgs/sec04-s2-desktop.jpg">
+                      <source media="(min-width:768px)" srcset="./imgs/sec04-s2-tablet.jpg">
+                      <img src="./imgs/sec04-s2-mobile.jpg" alt="반응형웹페이지미리보기">
+                    </picture>
+                  </div>
+                  <div class="txt-box">
+                    <h3>반응형 날씨 앱 시안 디자인</h3>
+                    <div class="icon-box">
+                      <a href="https://github/aaaaa789456/report06/">
+                        <img src="./imgs/sec04-img.svg" alt="자세히보기아이콘">
+                      </a>
+                    </div>
+                    <p><span>작업기간 : </span>3일</p>
+                    <p><span>기여도 : </span>디자인 100%</p>
+                    <p>
+                       데스크탑과 태블릿, 모바일 3가지 형태로 제작된 반응형 날씨 앱 시안디자인입니다.
+                    </p>
+                    <div class="span-box">
+                      <span>시안</span><span>디자인</span><span>반응형</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div  class="section" data-anchor="slide5">
+        <section class="sec sec05 secitem" id="contact">
+          <div class="container incont">
+            <h2>CONTACT</h2>
+            <div class="img-box">
+              <picture>
+                <source media="(min-width:1024px)" srcset="./imgs/sec05-me-d1.svg">
+                <source media="(min-width:768px)" srcset="./imgs/sec05-me-t1.svg">
+                <img src="./imgs/sec05-me-m1.svg" alt="내 이미지">
+              </picture>
+              <div class="img-box-f"></div>
+            </div>
+            <div class="txt-box">
+              <p>읽어주셔서 감사합니다.</p>
+              <p><span>E-mail : </span>bananawind0713@gmail.com</p>
+              <p><span>TEL : </span>010 - 3084 - 5978</p>
+            </div>
+            <div class="gitcon">
+              <a href="https://github.com/aaaaa789456" target="_blank">
+                <img src="./imgs/sec05-icon.svg" alt="깃허브 이동 아이콘">
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <footer id="footer">
+          <div class="bg-rock">
+          </div>
+          <div class="bg">
+            <div class="container">
+              <div class="img-box">
+                <a href="./index.html">
+                  <img src="./imgs/logo-w.svg" alt="로고밝은색">
+                </a>
+              </div>
+              <address>
+                해당 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.
+                폰트 및 일부 이미지와 구성요소 등은 별도의 출처가 있음을 알립니다.<br>
+                ⓒ2023. 07
+              </address>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+    </main>
+  </section>
+  <script src="./js/script.js"></script>
+</body>
+</html>
