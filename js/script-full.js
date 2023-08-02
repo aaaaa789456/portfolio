@@ -38,6 +38,7 @@ window.onresize = function(){
 
 new fullpage('#fullpage', {
     //options here
+    scrollOverflow: false,
     sectionsColor: ['#ffedde','#2ca6dc', '#2895cb', '#2485ba', '#1c6598'],
     afterLoad: 
         function(origin, destination, direction, trigger){
