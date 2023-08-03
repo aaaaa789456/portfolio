@@ -100,7 +100,7 @@ span{
     justify-content: space-between;
     align-items: center;
 }
-#header h1 .img-box{
+#header h1{
     width: 100px;
 }
 .btn-nav{
@@ -867,7 +867,7 @@ animation-duration: 20s;
         height: 90px;
         margin-bottom: 90px;
     }
-    #header h1 .img-box{
+    #header h1{
         width: 70px;
     }
     #header .btn-nav .img-box{

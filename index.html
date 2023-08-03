@@ -12,8 +12,8 @@
     <title>여름! ::웹 포트폴리오</title>
     <link rel="stylesheet" href="./css/reset.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.css" integrity="sha512-wCVOuVtxsXqrQK7tj9j4BvyfITQmpp7UE7mVilD7aieGLYFEIAa5UKTP1RapOf6dxQ9JIKAneakcyykWG4r4Ow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.css" integrity="sha512-wCVOuVtxsXqrQK7tj9j4BvyfITQmpp7UE7mVilD7aieGLYFEIAa5UKTP1RapOf6dxQ9JIKAneakcyykWG4r4Ow==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/style.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -40,37 +40,34 @@
     </div>
     
     <header id="header" class="header">
-        <div class="container hNav">
-            <div class="nav-top">
-                <h1>
-                  <div class="img-box">
-                    <a href="./index.html">
-                      <img src="./imgs/logo.svg" alt="메인페이지로이동로고">
-                    </a>
-                  </div>
-                </h1>
-                <div class="btn-nav" onclick="toggleNav();">
-                  <div class="img-box nav-o">
-                      <button class=""><img src="./imgs/btn-nav.svg" alt="네비여는아이콘"></button>
-                  </div>
-                  <div class="img-box nav-c">
-                      <button class=""><img src="./imgs/btn-nav02.svg" alt="네비닫는아이콘"></button>
-                  </div>
-                </div>
+      <div class="container hNav">
+        <div class="nav-top">
+          <h1>
+            <a href="./index.html">
+              <img src="./imgs/logo.svg" alt="메인페이지로이동로고">
+            </a>
+          </h1>
+          <div class="btn-nav" onclick="toggleNav();">
+            <div class="img-box nav-o">
+              <button class=""><img src="./imgs/btn-nav.svg" alt="네비여는아이콘"></button>
             </div>
-            <nav class="nav">
-              <ul id="menu" class="menu">
-                  <li class="li"><a href="#slide2">ABOUTME</a></li>
-                  <li class="li"><a href="#slide3">SKILLS</a></li>
-                  <li class="li"><a href="#slide4">PORTFOLIO</a></li>
-                  <li class="li"><a href="#slide5">CONTACT</a></li>
-              </ul>
-            </nav>
+            <div class="img-box nav-c">
+              <button class=""><img src="./imgs/btn-nav02.svg" alt="네비닫는아이콘"></button>
+            </div>
+          </div>
         </div>
+        <nav class="nav">
+          <ul id="menu" class="menu">
+            <li class="li"><a href="#slide2">ABOUTME</a></li>
+            <li class="li"><a href="#slide3">SKILLS</a></li>
+            <li class="li"><a href="#slide4">PORTFOLIO</a></li>
+            <li class="li"><a href="#slide5">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <div class="particles"></div>
-    <main class="main" id="fullpage">
+    <div class="main" id="fullpage">
 
       <section class="sec sec01 section" id="home" data-anchor="slide1">
         <div class="container">
@@ -296,7 +293,7 @@
         </footer>
 
       </div>
-    </main>
+    </div>
   </section>
   <script src="./js/script.js"></script>
 </body>
